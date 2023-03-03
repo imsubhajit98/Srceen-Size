@@ -1,0 +1,54 @@
+/* 
+Staring Break Points
+
+Mobile: 567px;
+Tablet: 768px;
+Laptop: 992px;
+Desktop: 1200px;
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    font-size: 45px;
+}
+.container{
+    height: 100vh;
+    border: 1px solid red;
+
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#size{
+    color: red;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        background-color: aqua;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .container{
+        background-color: rgb(111, 255, 0);
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .container{
+        background-color: rgb(0, 81, 255);
+    }
+    
+}
